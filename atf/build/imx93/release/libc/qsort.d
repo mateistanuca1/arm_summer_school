@@ -1,0 +1,19 @@
+/home/matei/arm_summer_school/atf/build/imx93/release/libc/qsort.o: \
+ lib/libc/qsort.c include/lib/libc/errno.h include/lib/libc/stdio.h \
+ include/lib/libc/cdefs.h include/lib/libc/stddef.h \
+ include/lib/libc/aarch64/stddef_.h include/lib/libc/aarch64/stdio_.h \
+ include/lib/libc/stdint.h include/lib/libc/limits.h \
+ include/lib/libc/aarch64/limits_.h include/lib/libc/aarch64/stdint_.h \
+ include/lib/libc/stdlib.h include/lib/libc/string.h
+include/lib/libc/errno.h:
+include/lib/libc/stdio.h:
+include/lib/libc/cdefs.h:
+include/lib/libc/stddef.h:
+include/lib/libc/aarch64/stddef_.h:
+include/lib/libc/aarch64/stdio_.h:
+include/lib/libc/stdint.h:
+include/lib/libc/limits.h:
+include/lib/libc/aarch64/limits_.h:
+include/lib/libc/aarch64/stdint_.h:
+include/lib/libc/stdlib.h:
+include/lib/libc/string.h:

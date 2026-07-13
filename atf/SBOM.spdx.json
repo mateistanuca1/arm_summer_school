@@ -1,0 +1,79 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "spdxVersion": "SPDX-2.3",
+  "creationInfo": {
+    "created": "2026-06-02T02:43:48Z",
+    "creators": [
+      "Organization: NXP"
+    ],
+    "licenseListVersion": "3.26"
+  },
+  "name": "imx-atf-lf-6.18.20-2.0.0",
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "https://nxp.com/spdx/061f4cd3-86c3-4324-9587-04e4c6139159",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-package-061f4cd3-86c3-4324-9587-04e4c6139159",
+      "name": "imx-atf",
+      "versionInfo": "lf-6.18.20-2.0.0",
+      "licenseConcluded": "BSD-3-Clause",
+      "licenseDeclared": "BSD-3-Clause",
+      "downloadLocation": "https://github.com/nxp-imx/imx-atf -b lf-6.18.20-2.0.0",
+      "originator": "Organization: NXP",
+      "supplier": "NOASSERTION",
+      "externalRefs": [],
+      "filesAnalyzed": false
+    },
+    {
+      "SPDXID": "SPDXRef-package-061f4cd3-86c3-4324-9587-04e4c6139159---f605f865-821f-4d4c-8af3-80c499eecb07",
+      "name": "arm-trusted-firmware",
+      "versionInfo": "v2.14",
+      "licenseConcluded": "BSD-3-Clause",
+      "licenseDeclared": "BSD-3-Clause",
+      "homepage": "https://github.com/ARM-software/arm-trusted-firmware",
+      "downloadLocation": "NOASSERTION",
+      "originator": "Organization: arm-trusted-firmware",
+      "supplier": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceLocator": "cpe:2.3:a:arm:arm_trusted_firmware:2.14:*:*:*:*:*:*:*",
+          "referenceType": "cpe23Type"
+        },
+        {
+          "referenceCategory": "SECURITY",
+          "referenceLocator": "cpe:2.3:a:arm:trusted_firmware-a:2.14:*:*:*:*:*:*:*",
+          "referenceType": "cpe23Type"
+        },
+        {
+          "referenceCategory": "SECURITY",
+          "referenceLocator": "cpe:2.3:o:arm:arm-trusted-firmware:2.14:*:*:*:*:*:*:*",
+          "referenceType": "cpe23Type"
+        },
+        {
+          "referenceCategory": "SECURITY",
+          "referenceLocator": "cpe:2.3:o:arm:arm_trusted_firmware:2.14:*:*:*:*:*:*:*",
+          "referenceType": "cpe23Type"
+        },
+        {
+          "referenceCategory": "SECURITY",
+          "referenceLocator": "cpe:2.3:o:arm:trusted_firmware-a:2.14:*:*:*:*:*:*:*",
+          "referenceType": "cpe23Type"
+        }
+      ],
+      "filesAnalyzed": false
+    }
+  ],
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relationshipType": "DESCRIBES",
+      "relatedSpdxElement": "SPDXRef-package-061f4cd3-86c3-4324-9587-04e4c6139159"
+    },
+    {
+      "spdxElementId": "SPDXRef-package-061f4cd3-86c3-4324-9587-04e4c6139159",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-package-061f4cd3-86c3-4324-9587-04e4c6139159---f605f865-821f-4d4c-8af3-80c499eecb07"
+    }
+  ]
+}
